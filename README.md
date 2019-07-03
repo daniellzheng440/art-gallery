@@ -1,6 +1,8 @@
 # art-gallery
 ## Description
-The goal of this project is to display a short description of artist or art when users click on the name of the art or artist. Then, the user could choose to click the name of the art or artist on the contents displayed to view more detailed informations. The user could choose to purchase the artworks on the page that have detailed informations about the artwork.
+The goal of this project is to display a short description of artist or art when users click on the name of the art or artist. Then, the user could choose to click the name of the art or artist on the contents displayed to view more detailed informations. The user could choose to purchase the artworks on the page that have detailed informations about the artwork.<br>
+
+The project is unfinished, as the museum tag on the main page will display the informations about artworks. This is not a bug.
 ## Programming Languages
 The v1 of art gallery only use HTML, CSS, Javascript.<br>
 The v2, in addition with everything mentioned previously, uses PHP as server language by return some HTMLs as response.
