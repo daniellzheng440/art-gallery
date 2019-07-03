@@ -1,0 +1,97 @@
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Art Gallery</title>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="artGallery.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container fill">
+			<div align="center">
+				    <button>Home</button>
+					<button>About Us</button>
+					<button>Blogs</button>
+					<button type="button" data-toggle="modal" data-target="#myModal"><i class="fas fa-cart-plus"></i></button>
+			</div>
+
+			<!-- Modal -->
+			<div class="modal fade" id="myModal" role="dialog">
+				<div class="modal-dialog">
+    
+					<!-- Modal content-->
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">&times;</button>
+							<h4 class="modal-title">Purchase Art</h4>
+						</div>
+						<div class="modal-body" id="d-body">
+							Artwork Name:<input type="text" name="art work">
+							<p>Quantity:<input type="number" name="quantity"></p>
+							<input type ="radio" name="shipping" value=0>Two weeks free shipping 
+							<input type ="radio" name="shipping" value=20>Three days shipping
+							<input type ="radio" name="shipping" value=50> One day shipping
+							<button id="submit">Submit</button>
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+      
+				</div>
+			</div>
+			<h1>Welcome to Art Gallery</h1>
+			<p>This is the site that you can get all the info about art</p>
+		    <div>Abdeali Daginawala 500712640</div>
+		    <div>Zhong Zheng 500687850</div>
+			<div align="left" id="left-bar">
+				<div class="dropdown">
+					<button class="dropbtn">Art Works</button>
+					<div class="dropdown-content">
+						<a href="#" id="tsn">The Starry Night</a>
+						<a href="#" id="Mona Lisa">Mona Lisa</a>
+						<a href="#" id="The Last Supper">The Last Supper</a>
+						<a href="#" id="American Gothic">American Gothic</a>
+						<a href="#" id="Guernica">Guernica</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Artist</button>
+					<div class="dropdown-content">
+						<a href="#" id="Pablo Picasso">Pablo Picasso</a>
+						<a href="#" id="Vincent von Gough">Vincent von Gough</a>
+						<a href="#" id="Leonardo da Vinci">Leonardo da Vinci</a>
+						<a href="#" id="El Greco">El Greco</a>
+						<a href="#" id="Masaccio">Masaccio</a>
+					</div>
+				</div>
+				<div class="dropdown">
+					<button class="dropbtn">Museum</button>
+					<div class="dropdown-content">
+						<a href="#" id="tsn">The Starry Night</a>
+						<a href="#" id="Mona Lisa">Mona Lisa</a>
+						<a href="#" id="The Last Supper">The Last Supper</a>
+						<a href="#" id="American Gothic">American Gothic</a>
+						<a href="#" id="Guernica">Guernica</a>
+					</div>
+				</div>
+			</div>
+			<div class="row down">
+				<div class="col">
+				<p></p>
+				</div>
+				<div class="col img hidden window">
+					<img src="">
+				</div>
+				<div class="col description hidden window">
+					<p></p>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="artGallery.js"></script>
+	</body>
+</html>
